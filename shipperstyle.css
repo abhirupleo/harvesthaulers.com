@@ -1,0 +1,78 @@
+html,body
+{	
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Lato', sans-serif;
+    color:white;
+    text-shadow: 2px 2px rgba(0,0,0,0.6);
+}
+p{
+	color:white;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+.fixed{
+  position:fixed;
+  top:0;
+  width:100%;
+}
+.mininav2{
+	font-size:25px;
+  	background:rgba(30,130,76,0.78);
+  	position:fixed;
+  	top:0;
+  	left:0;
+  	z-index:99;
+  	height:100%;
+  	width:30%;
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.2s ease 0s;
+    transform:tranlateX(-100%);
+}
+.mininav h3{
+	z-index:99;
+	text-shadow: none;
+	font-size:35px;
+}
+
+
+.mininav h3{
+	z-index:99;
+	text-shadow: none;
+	font-size:35px;
+}
+.menu:hover{
+  transition: all 0.2s ease 0s;
+  background: #459375;
+  padding:5px;
+  cursor:pointer;
+}
+.menu:hover h3{
+  color:white;
+}
+.active{
+  background:#459375;
+  padding:5px;
+  color:white;
+}
+.close{
+	color:white;
+    cursor:pointer;
+  }
+  .main{
+	height:100vh;
+	position:relative;
+	font-size:30px;
+	color:rgba(30,130,76,1);
+	background: url('http://i.imgur.com/ovHg8aC.jpg') no-repeat;
+	background-size:cover;
+}

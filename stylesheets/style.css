@@ -8,6 +8,7 @@ html,body
     font-family: 'Lato', sans-serif;
     color:white;
     text-shadow: 2px 2px rgba(0,0,0,0.6);
+    position:relative;
 }
 h2{
 	color:white;
@@ -25,10 +26,17 @@ a{
 a:hover{
 	text-decoration:none;
 }
+hr{
+	width:60%;
+	height:5px;
+}
 .fixed{
   position:fixed;
+  background:rgba(30,130,76,1);
+  color:white;
   top:0;
-  width:100%;
+  width:105%;
+  z-index:99;
 }
 .mininav2{
 	font-size:25px;
@@ -42,7 +50,7 @@ a:hover{
     margin: 0px;
     padding: 0px;
     transition: all 0.2s ease 0s;
-    display:none;
+    transform:translateX(-100%);
 }
 .mininav h3{
 	z-index:99;
@@ -89,6 +97,67 @@ a:hover{
 	background:rgba(30,130,76,1);
 	transition: all 0.3s ease 0s;
 	cursor:pointer;
+}
+.button1{
+	border:white solid 2px;
+	border-radius:5px;
+	padding:5px;
+}
+.main2{
+	background: url('http://i.imgur.com/fk7oKDA.jpg') ;
+}
+.main3{
+	background: url('http://i.imgur.com/Q6PICDC.png') ;
+}
+.divide{
+	height:45vh;
+	text-shadow:none;
+	color:rgba(30,130,76,1);
+	background:white;
+}
+.divide h2{
+	text-shadow:none;
+	color:rgba(30,130,76,1);
+}
+.divide hr{
+	width:40%;
+	border-color:rgba(30,130,76,1);
+	height:10px;
+}
+.main4{
+	background:url('http://i.imgur.com/b8ppOj5.jpg');
+	background-size:cover;
+}
+.register{
+	text-shadow:none;
+	margin-top:5%;
+	color:rgba(30,130,76,1);
+	background: rgba(0,0,0,0.68);
+	border: solid white 4px;
+	border-radius:5px;
+}
+.register h2{
+	text-shadow:none;
+	color:rgba(30,130,76,1);
+}
+.register input{
+	background:rgba(0,0,0,0);
+	border: solid white 2px;
+	border-radius:4px;
+	padding:10px;
+	margin-left:-90px;
+	font-family: 'Lato', sans-serif;
+	font-size:25px;
+}
+.main4 .button{
+	width:60%;
+	padding:5px 0 5px 0;
+	margin-left:-35px;
+	border:solid white 2px;
+	background:rgba(30,130,76,1);
+}
+.main4 h3{
+	font-size:35px;
 }
 @media (max-width: 1000px){
 	.mininav2 h3{
