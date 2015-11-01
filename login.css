@@ -1,0 +1,42 @@
+.container-fluid{
+	background: url("http://i.imgur.com/ngXafyl.jpg");
+	background-attachment: scroll;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	height:100vh;
+
+
+}
+
+#overlay{
+	background-color:rgba(0,0,0,0.6);
+	left: 0;
+	top: 0;
+	position:absolute;
+	width:100%;
+	height:100%;
+
+}
+
+.row h3{
+	color: white;
+	font-size: 40px;
+}
+
+.form{
+	padding:15px;
+	border-radius:6px;
+	font-size:30px;
+}
+
+.submit{
+	background-color: #1ea24c;
+	color:white;
+	padding:20px;
+	border-radius:6px;
+	border-width:0px;
+	font-size: 25px;
+
+}
+
