@@ -5,6 +5,7 @@
 	background-repeat: no-repeat;
 	position: relative;
 	height:100vh;
+	overflow:hidden;
 
 
 }
@@ -38,5 +39,9 @@
 	border-width:0px;
 	font-size: 25px;
 
+}
+
+.title{
+	background-color:#1ea24c;
 }
 
